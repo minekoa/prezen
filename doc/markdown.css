@@ -1,0 +1,76 @@
+.md {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    background-color: #fafafa;
+
+    font-size: 2em;
+}
+
+.md h1 {
+    color: #fafafa;
+    background-color: rgba(139, 195, 74, 1);
+    margin: 0;
+    padding-top: 0.2em;
+    padding-left: 1em;
+
+    border-bottom-right-radius: 40px 20px;
+}
+
+.md h2 {
+    color: rgba(139, 195, 74, 1);
+    padding-left: 0.5em;
+}
+
+.md p {
+    color: #2d2d2d;
+    margin-left: 1em;
+}
+
+.md ul {
+    color: #2d2d2d;
+    margin-left: 1em;
+}
+
+.md pre {
+    color: #3d2d2d;
+    background-color: #d4d4d4;
+    font-family: DejaVu;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+
+    padding-left: 0.8em;
+}
+
+.md code {
+    background-color: #d4d4d4;
+    font-family: DejaVu;
+    border-radius: 5px;
+}
+
+.md table {
+    margin-top: 1em;
+    margin-left: 1em;
+    border-collapse: collapse;
+}
+
+.md table th, .md table td {
+    padding: 8px;
+    line-height: 20px;
+    vartical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.md table th {
+    vertical-align: bottom;
+    text-align: left;
+
+    font-weight: bold;
+}
+
+.md blockquote {
+    background-color: #FFEF99;
+}

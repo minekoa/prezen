@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.root {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+
+    position: relative;
+}
+
+.presentation {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    padding: 0, 1em, 1em, 1em;
+    margin: 0px;
+    border: none;
+
+    background-color: gray;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
+    height: 1.5em;
+    text-align: center;
+}
+
+
+.controll {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+/*    animation: anime1 5s ease -2s 1 alternate; */
+}
+                  
+.ctrl {
+    width: 10em;
+    height: 100%;
+    transition: background-color 1s 0s ease;
+}
+
+.ctrl:hover {
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+
+@keyframes anime1 {
+    0%   {opacity: 0.5;}
+    100% {opacity: 0.0;}
+}
+
+
+.bookshelf {
+    z-index: 3;
+
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    background-color: #fafafa;
+
+    font-size: 2em;
+
+    overflow: auto;
+}
